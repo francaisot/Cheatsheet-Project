@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Color Reference</title>
+    <link href="resources/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>CSS Color Reference</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <td><h3>Tag</h3></td>
+          <td><h3>Name</h3></td>
+          <td><h3>Description</h3></td>
+          <td colspan="2"><h3>Example</h3></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tag" rowspan="2">rgb</td>
+          <td rowspan="3">Red Green Blue</td>
+          <td rowspan="3">
+            <div class="info">
+              Defines a colour based on the red, green, and blue components.
+              This can be expressed through hexadecimal and functional
+              notations. The RGB numbers span from 255 to 0, where 255 indicates
+              100% presence of that colour.
+            </div>
+          </td>
+          <td>
+            <div>Hexadecimal:</div>
+            #RRGGBB, #RGB
+          </td>
+          <td>
+            <div>Functional:</div>
+            rgb(R G B)
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>Hexadecimal:</div>
+            #7FFFD3
+          </td>
+          <td>
+            <div>Functional:</div>
+            rgb(127, 255, 211)
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="tag" rowspan="2">rgba</td>
+          <td rowspan="2">Red Green Blue Alpha</td>
+          <td rowspan="2">
+            <div class="info">
+              RGB operates the same as above, but the Alpha element is a number
+              from 0 to 1 that represents a percentage. If the number is set to
+              1 that indicates full opacity (100%), whereas if it is set to 0
+              that indicates full transparency (0%).
+            </div>
+          </td>
+          <td>
+            <div>Hexadecimal:</div>
+            #RRGGBB[A], #RGB[A]
+          </td>
+          <td>
+            <div>Functional:</div>
+            rgba(R G B, A)
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>Hexadecimal:</div>
+            #0007
+          </td>
+          <td>
+            <div>Functional:</div>
+            rgba(127, 255, 211, 0.7)
+          </td>
+        </tr>
+        <tr>
+          <td class="tag">hex</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
